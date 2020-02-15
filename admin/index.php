@@ -15,10 +15,10 @@ $articles = Article::getPage($conn, $paginator->limit, $paginator->offset);
 
 <h2>Administration</h2>
 
-<p><a href="new-article.php">New article</a></p>
+<p><a href="new-article.php">New post</a></p>
 
 <?php if (empty($articles)) : ?>
-    <p>No articles found.</p>
+    <p>No posts found.</p>
 <?php else : ?>
 
     <table class="table">

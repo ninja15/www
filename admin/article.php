@@ -46,7 +46,7 @@ if (isset($_GET['id'])) {
     <a href="edit-article-image.php?id=<?= $article[0]['id']; ?>">Edit image</a>
 
 <?php else : ?>
-    <p>Article not found.</p>
+    <p>Post not found.</p>
 <?php endif; ?>
 
 <?php require '../includes/footer.php'; ?>
