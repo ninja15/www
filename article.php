@@ -30,7 +30,7 @@ if (isset($_GET['id'])) {
                 <?php endforeach; ?>
             </p>
         <?php endif; ?>
-
+        </br>
         <?php if ($article[0]['image_file']) : ?>
             <img src="/uploads/<?= $article[0]['image_file']; ?>">
         <?php endif; ?>
